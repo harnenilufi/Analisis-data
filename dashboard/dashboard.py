@@ -84,9 +84,9 @@ st.plotly_chart(fig)
 with st.expander("See Explanation"):
     st.write(
         """
-        Kualitas udara dalam rentang tahun 2013-2017 pling buruk terjadai pada tahun 2017.
+        Kualitas udara dalam rentang tahun 2013-2017 pling buruk terjadai pada tahun 2017.  
         Dimana tingkat rata-rata PM2.5 di tahun tersebut mencapai 94.5.  
-        Seteleh penurunan tingkat PM2.5 di 2 tahun terakhir yaitu tahun 2015 dan 2016, 
+        Setelah penurunan tingkat PM2.5 di 2 tahun terakhir yaitu tahun 2015 dan 2016, 
         peningkatan signifikan terjadi pada tahun 2017
         """
     )
