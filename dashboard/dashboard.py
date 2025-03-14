@@ -8,7 +8,7 @@ import plotly.express as px
 import calendar
 
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 datetime_columns = ['date']
 all_df.sort_values(by='date', inplace = True)
 all_df.reset_index(inplace=True)
