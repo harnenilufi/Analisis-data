@@ -20,7 +20,7 @@ min_date = all_df["date"].min()
 max_date = all_df["date"].max()
  
 with st.sidebar:
-    st.image("air-quality.png", use_container_width=True)
+    st.image("dashboard/air-quality.png", use_container_width=True)
     start_date, end_date = st.date_input(
         label='Rentang Waktu',min_value=min_date,
         max_value=max_date,
